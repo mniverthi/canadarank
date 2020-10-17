@@ -17,7 +17,7 @@ for index, url in enumerate(file.readlines()):
     if (len(article.text) == 0):  
       print(url)
     else:
-      path = "./text/"+str(index)+".txt"
+      path = "./fulltext/"+str(index)+".txt"
       writeFile = open(path, "a+")
       writeFile.write(article.text)
       writeFile.close()
