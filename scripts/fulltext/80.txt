@@ -1,0 +1,35 @@
+Innovation Minister Navdeep Bains speaks at an aerospace conference in Ottawa in November 2018./ Photo via Andrew Meade.
+
+The Liberals’ election commitment to drop wireless prices 25 per cent will happen organically due to changes in the market, and it probably won’t save Canadians the average of $1,000 a year that the party platform promised, Innovation Canada told the Privy Council Office.
+
+That’s because while the Liberal promise targets plans with a specific, mid-range data allowance, Canadians want increasingly larger plans, a PCO analyst outlined in an email obtained through Access to Information.
+
+Analyst Margarete Ling wrote the email following conversations with Innovation, Science and Economic Development Canada, days after the 2019 federal election in which the Liberals campaigned on the price drop promise.
+
+“ISED estimates the commitment of a 25 percent price decline per gigabyte (GB), over the course of the mandate, will occur organically without intervention beyond measures the government is already taking and therefore, continuing with status quo measures is expected to achieve the desired result,” Ling said in the email.
+
+The reasoning behind ISED’s conclusion is that the Liberal promise was based on a 5 GB plan. Prices are falling globally, which means a customer can get a 5 GB plan for the price of a 2 GB plan a few years ago, the email outlined.
+
+“In this sense, prices are declining organically. However, at the same time, consumption continually increases. Canadians no longer want the lower GB plans. Therefore, it is unlikely that price/GB reductions will result in the promised $1,000 a year savings,” the email said.
+
+“As well, Canadians may not be in a position to realize savings within the lifecycle of their current contracts. Prices might drop, but they are locked in.”
+
+The election platform promised a re-elected Liberal government would “move forward with cutting the cost of these services by 25 per cent in the next two years by using the government’s regulatory powers, saving an average middle class family of four nearly $1,000 per year.”
+
+The government chose in March to focus the commitment on 2 GB to 6 GB post-paid plans from Rogers Communications Inc., Telus Corp. and BCE Inc. It launched a tracker to monitor prices in July.
+
+Innovation Minister Navdeep Bains said in a phone interview in March that the government chose to target “mid-range” plans because they hadn’t seen a significant pricing decline, as had been the case for low-end and high-end plans. The government’s annual pricing report showed that prices for plans with 10 GB of data dropped by 31 per cent in the of summer 2019, for instance.
+
+The PCO email also noted that summer’s price drop as another factor in why prices are expected to drop organically, in addition to set-asides in spectrum auctions for smaller players.
+
+The details in the email were also included in an attached document analyzing the election promises. The document noted that the CRTC is in the process of deciding whether to mandate access by mobile virtual network operators (MVNOs) to incumbent networks. The Liberals also promised to “encourage competition by expanding the entry” of Canadian MVNOs in the wireless market.
+
+The PCO document noted that the government does not have the power to regulate rates directly, or to force the CRTC to facilitate MVNOs, though the federal government can vary a decision once it has been issued. “In the event the government is dissatisfied with the model developed, the government could alter the decision under existing authorities in the Telecommunications Act,” it said.
+
+The partially-redacted document also looked at potential responses to MVNOs, saying that reaction among the provinces and territories might be mixed, with some “supportive of the impact on prices, while others may express concern for reduced investment.”
+
+It added that wireless carriers “will strongly oppose measures to mandate MVNO access, while consumer advocacy groups would support such actions.”
+
+The analysis in the following paragraph is mostly redacted, though it does state that “the general public would be in favour.”
+
+— Reporting by Anja Karadeglija at akarad@thewirereport.ca and editing by Michael Lee-Murphy at mleemurphy@thewirereport.ca
