@@ -1,19 +1,30 @@
 import language_tool_python
-import requests
 from newspaper import Article
 from newspaper import fulltext
-from urllib.request import urlopen
-from bs4 import BeautifulSoup
+import traceback
+import sys
+
+tool = language_tool_python.LanguageTool('en-US')
+
+
 
 # Take URL convert to text
-file = open("files.txt", "r")
+file = open("../scripts/articles.txt", "r")
+i = 0
 for url in file.readlines():  
-  
-  article = Article(url, keep_article_html = True)
-  article.download()
-  article.parse()
-  tool = language_tool_python.LanguageTool('en-US')
-  matches = tool.check(article.text)
-  print("Typos: %d Total Word: %d", len(matches), len(article.text))
-  
+  try:
+    article = Article(url.strip())
+    article.download()
+    article.parse()
+    matches = tool.check(article.text)
+    if (len(article.text) == 0):
+      print(url)
+    else:
+      print("Typos: ", len(matches), "Total Words: ", len(article.text))
+  except:
+    print("Errored on: ", url)
+    traceback.print_exception(*sys.exc_info()) 
+
 file.close()
+
+    
