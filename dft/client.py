@@ -1,15 +1,37 @@
 from backend import api
+import os
 
-lm = api.LM()
-text = "this dog is super cool but he's also kind of annoying. by the way I am FAT"
-output = lm.check_probabilities(text)['real_topk']
+def find_prob(model, text):
+    output, all_count = model.check_probabilities(text)
+    output = output['real_topk']
+    count = 0
+    for _, prob in output:
+        if prob >= 0.1:
+            count += 1
 
-count = 0
-all_count = len(text.split(" "))
+    print(count, all_count)
+    return count / all_count
 
-for _, prob in output:
-    if prob > 0.015:
-        count += 1
+def get_text_list():
+    texts = []
+    base_dir = "../scripts/text/"
+    for file_name in os.listdir(base_dir):
+        file_name = base_dir + file_name
+        file = open(file_name, "r")
+        text = file.read()
+        texts.append(text)
+        file.close()
+    
+    return texts
 
-print("sus words:", count, "all words:", all_count)
-print(count / all_count)
+if __name__ == '__main__':
+    lm = api.LM()
+
+    #text = open("../scripts/text/1.txt", "r").read()
+    #text.replace("\n", " ")
+    #prob = find_prob(lm, text)
+
+    texts = get_text_list()
+    for text in texts:
+        prob = find_prob(lm, text)
+        print(prob)

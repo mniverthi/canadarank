@@ -84,7 +84,8 @@ class LM(AbstractLanguageChecker):
                              self.enc.encoder[self.start_token],
                              device=self.device,
                              dtype=torch.long)
-        context = self.enc.encode(in_text)
+        context = self.enc.encode(in_text)[0:1023]
+        len_context = len(context)
         context = torch.tensor(context,
                                device=self.device,
                                dtype=torch.long).unsqueeze(0)
@@ -126,7 +127,7 @@ class LM(AbstractLanguageChecker):
         if torch.cuda.is_available():
             torch.cuda.empty_cache()
 
-        return payload
+        return payload, len_context
 
     def sample_unconditional(self, length=100, topk=5, temperature=1.0):
         '''
