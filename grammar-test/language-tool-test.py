@@ -1,11 +1,19 @@
 import language_tool_python
-tool = language_tool_python.LanguageTool('en-US')
-import urllib as urllib
+import requests
+from newspaper import Article
+from newspaper import fulltext
+from urllib.request import urlopen
+from bs4 import BeautifulSoup
 
 # Take URL convert to text
-NEWS_ARTICLE = "https://www.cnn.com/2020/10/13/politics/supreme-court-census/index.html"
-file = urllib.request.urlopen(NEWS_ARTICLE)
-for line in file:
-  decoded_line = line.decode("utf-8")
-
-print(decoded_line)
+file = open("files.txt", "r")
+for url in file.readlines():  
+  
+  article = Article(url, keep_article_html = True)
+  article.download()
+  article.parse()
+  tool = language_tool_python.LanguageTool('en-US')
+  matches = tool.check(article.text)
+  print("Typos: %d Total Word: %d", len(matches), len(article.text))
+  
+file.close()
