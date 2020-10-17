@@ -5,8 +5,6 @@ import numpy as np
 import praw
 
 
-
-
 # Take URL convert to text
 file = open("articleinfo/redditArticles.txt", "r")
 for index, url in enumerate(file.readlines()):  
@@ -14,10 +12,10 @@ for index, url in enumerate(file.readlines()):
     article = Article(url.strip())
     article.download()
     article.parse()
-    if (len(article.text) == 0):  
+    if (len(article.text) <= 150):  
       print(url)
     else:
-      path = "./fulltext/"+str(index)+".txt"
+      path = "./fulltext/" + str(index) + ".txt"
       writeFile = open(path, "a+")
       writeFile.write(article.text)
       writeFile.close()
