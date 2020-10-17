@@ -14,13 +14,13 @@ data = pd.DataFrame(columns = ['URL', 'Typos', 'Total Words', 'Date'])
 df = pd.read_csv('articleinfo/redditDate.csv')
 # Take URL convert to text
 file = open("articleinfo/redditArticles.txt", "r")
-for i, url in enumerate(file.readlines()):  
+for i, url in enumerate(file.readlines()):
   try:
     article = Article(url.strip())
     article.download()
     article.parse()
     matches = tool.check(article.text)
-    if (len(article.text) == 0):  
+    if (len(article.text) == 0):
       print(url)
     else:
       if(article.publish_date == None):
@@ -30,9 +30,6 @@ for i, url in enumerate(file.readlines()):
       data = data.append({'URL' : url, 'Typos' : len(matches), 'Total Words' : len(article.text), 'Date' : date}, ignore_index=True)
   except:
     print("Errored on: ", url)
-    traceback.print_exception(*sys.exc_info()) 
+    traceback.print_exception(*sys.exc_info())
 file.close()
 pd.DataFrame(data).to_csv("data/news.csv", index = False)
-
-
-    
