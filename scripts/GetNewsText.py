@@ -8,7 +8,7 @@ import praw
 
 
 # Take URL convert to text
-file = open("../scripts/redditArticles.txt", "r")
+file = open("articleinfo/redditArticles.txt", "r")
 for index, url in enumerate(file.readlines()):  
   try:
     article = Article(url.strip())
