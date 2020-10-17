@@ -15,6 +15,7 @@ data = pd.DataFrame(columns = ['URL', 'Typos', 'Total Words', 'Date', 'Upvotes',
 df = pd.read_csv('data/redditDate.csv')
 # Take URL convert to text
 file = open("articleinfo/redditArticles.txt", "r")
+fileNum = 0
 for i, url in enumerate(file.readlines()):  
   try:
     article = Article(url.strip())
@@ -33,6 +34,11 @@ for i, url in enumerate(file.readlines()):
         date = str(article.publish_date)[0:10]
       upvotes = df.at[i, 'Upvotes']
       ratio = df.at[i, 'Upvote Ratio']
+      path = "./fulltext/" + str(fileNum) + ".txt"
+      fileNum += 1
+      writeFile = open(path, "a+")
+      writeFile.write(article.text)
+      writeFile.close()
       data = data.append({'URL' : url, 'Typos' : len(matches), 'Total Words' : len(article.text), 'Date' : date, 'Upvotes': upvotes, 'Upvote Ratio': ratio}, ignore_index=True)
   except:
     print("Errored on: ", url)

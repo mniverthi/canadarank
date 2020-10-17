@@ -34,4 +34,36 @@ Turkey’s military exports to its ally Azerbaijan have risen six-fold this year
 
 Canadian arms control group Project Ploughshares says video of air strikes released by Azerbaijan indicates the drones had been equipped with imaging and targeting systems made by L3Harris Wescam, the Canada-based unit of L3Harris Technologies Inc LHX.N.
 
-Ankara has said it stands firmly beside its close ally in the conflict over Nagorno-Karabakh.
+Ankara has said it stands firmly beside its close ally in the conflict over Nagorno-Karabakh.Some Carleton University students are expressing concern about software being used to guard against cheating during online exams.
+
+The university says most instructors have adapted their courses to avoid timed exams during the COVID-19 pandemic, but a small number still require them.
+
+For those, students are required to download one of two proctor programs that access their web cameras. The programs then monitor the student at random intervals during the exam to make sure they're not cheating.
+
+"The university is trying to recreate a reality that just isn't attainable," said Matt Gagne, president of the Carleton Academic Student Government, which acts as an intermediary between students, faculty and school administrators.
+
+Carleton says the two programs, called CoMaS and Big Blue Button, were developed at the university and have been used on campus for years. In a statement, the university said the programs "are not intrusive AI-powered software or external service providers."
+
+That means the programs don't allow remote access to the computers on which they're installed, so they can't spy on files, browsing history or other applications.
+
+But Gagne said students still have privacy concerns.
+
+"It's also having to put in a camera into every student's home, when students are coming from a lot of different backgrounds where they might not be comfortable with that," he said.
+
+For example, what if a roommate accidentally walks in on a student who's taking an exam, Gagne asked.
+
+"If a prof sees that and deems it as suspicious behaviour, they could fail a student because of that," he said.
+
+Gagne is asking the university to come up with a different way to monitor timed exams, especially when students are already under added stress due to the pandemic.
+
+"We should be looking for more compassion from the university on this, not less," he said.
+
+Many faculty members agree.
+
+"This is a difficult time for students and for instructors," said Angelo Mingarelli, president of the Carleton University Academic Staff Association. He's suggesting alternatives including open-book exams, or administering multiple versions of exams to limit the chance of cheating.
+
+"We have software, we have machines, we have programs that can do this, and it keeps the privacy concerns of individuals safe," he said.
+
+Carleton said students concerned about privacy can discuss the issue with their instructors to see if there's some other way to take the exam.
+
+Gagne said the issue will be discussed at the next university senate meeting on Oct. 30.
