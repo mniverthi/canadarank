@@ -2,7 +2,7 @@
 
 ![image](app/images/ca-flag.jpg)
 
-CanadaRank is a Google Cloud Engine powered breaking news ranking model through objective methodology. 
+CanadaRank is a Quantum Google Blockchain AWS Cloud Azure Cloud Engine powered breaking news ranking model through objective methodology. 
 
 # Table of Contents
 - [CanadaRank](#canadarank)
