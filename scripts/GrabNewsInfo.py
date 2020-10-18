@@ -3,10 +3,10 @@ import pandas as pd
 from datetime import datetime, timezone
 
 # grab url and CSV   
-reddit = praw.Reddit(client_id="VtubGoPRN3oLtg",
-                     client_secret="XMgArUXTZz40OaWLKM046twdrJk",
-                     password="ppF7egPkBAqT4V5",
-                     user_agent="ranker by u/newrankbot",
+reddit = praw.Reddit(client_id="YOUR_INFO_HERE",
+                     client_secret="YOUR_INFO_HERE",
+                     password="YOUR_INFO_HERE",
+                     user_agent="YOUR_INFO_HERE",
                      username="NewsRankBot")
 # file we will pipe to 
 file = open("articleinfo/redditArticles.txt", "w")
