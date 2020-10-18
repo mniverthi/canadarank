@@ -12,7 +12,7 @@ import csv
 tool = language_tool_python.LanguageTool('en-US')
 
 data = pd.DataFrame(columns = ['URL', 'Typos', 'Total Words', 'Date', 'Upvotes', 'Upvote Ratio'])
-df = pd.read_csv('data/redditDate.csv')
+df = pd.read_csv('data/news.csv')
 # Take URL convert to text
 file = open("articleinfo/redditArticles.txt", "r")
 for i, url in enumerate(file.readlines()):
