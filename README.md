@@ -109,7 +109,9 @@ The process of compiling all this data left us with a strong group of datapoints
 First of all, we began brainstorming the most crucial data points we collected based on the information we had. The three areas that we had involved the
 
 # Bringing it Together with Front End
-The front end aspect of this project wasn't the central focus, so we brought together our results with a simple interface that can be viewed from the web by users. The news articles are ranked from "best" to "worst" as determined by our algorithm from top to bottom, and the user can optionally sort the articles by a specific parameter of their choosing. We think that tackling how ranked news should be presented is an area that can be sought after more by developers and designers, creating solutions that attract users.
+The front end aspect of this project wasn't the central focus, so we brought together our results with a simple interface that can be viewed from the web by users. The news articles are ranked from "best" to "worst" as determined by our algorithm from top to bottom, and the user can optionally sort the articles by a specific parameter of their choosing(as shown in the image below). We think that tackling how ranked news should be presented is an area that can be sought after more by developers and designers, creating solutions that attract users.
+
+![image](app/images/UI.png)
 
 # Society and Democracy
 There is no doubt that news ranking is fundamentally important to converving democracy--if citizens do not have the access to a neutral, non-biased source of news, then it is very possible that their beliefs and actions will be indirectly influenced by the news they see. One approach our algorithm takes to combat this issue is to downplay the popularity of a news article. While often the most popular results are shown first to users, CanadaRank will give little weight to this category, instead prioritizing parameters we think are more important in determing a good news article.
