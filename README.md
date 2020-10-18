@@ -1,5 +1,6 @@
 # CanadaRank
 
+## Second Place NewsQ Challenge HackGT 7
 ![image](app/images/ca-flag.jpg)
 
 CanadaRank is a breaking news ranking model through objective methodology. 
